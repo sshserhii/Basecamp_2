@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cppbcuser/basecamp/basecamp_2/src/Move.h
+iostream
+-
+
+/home/cppbcuser/basecamp/basecamp_2/src/main.cpp
+Move.h
+/home/cppbcuser/basecamp/basecamp_2/src/Move.h
+

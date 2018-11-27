@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/main.dir/src/main.cpp.o  -o main  -L/home/cppbcuser/home/cppbcuser/basecamp/basecamp_3/task2 -ltest_m -Wl,-rpath,/home/cppbcuser/home/cppbcuser/basecamp/basecamp_3/task2 
