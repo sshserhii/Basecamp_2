@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.5)
-project(move_test)
+cmake_minimum_required(VERSION 2.0)
+set(CMAKE_CXX_STANDARD 11)
+
+project(move_test_1)
 
 set(CMAKE_BUILD_TYPE Release)
 include_directories(include)

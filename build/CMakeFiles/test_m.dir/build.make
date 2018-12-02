@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cppbcuser/basecamp/basecamp_2
+CMAKE_SOURCE_DIR = /home/shsergiy/test/task1/Basecamp_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cppbcuser/basecamp/basecamp_2/build
+CMAKE_BINARY_DIR = /home/shsergiy/test/task1/Basecamp_2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_m.dir/depend.make
@@ -57,67 +57,67 @@ include CMakeFiles/test_m.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_m.dir/flags.make
 
-CMakeFiles/test_m.dir/src/main.cpp.o: CMakeFiles/test_m.dir/flags.make
-CMakeFiles/test_m.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_m.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_m.dir/src/main.cpp.o -c /home/cppbcuser/basecamp/basecamp_2/src/main.cpp
+CMakeFiles/test_m.dir/src/Move.o: CMakeFiles/test_m.dir/flags.make
+CMakeFiles/test_m.dir/src/Move.o: ../src/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_m.dir/src/Move.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_m.dir/src/Move.o -c /home/shsergiy/test/task1/Basecamp_2/src/Move.cpp
 
-CMakeFiles/test_m.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_m.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cppbcuser/basecamp/basecamp_2/src/main.cpp > CMakeFiles/test_m.dir/src/main.cpp.i
+CMakeFiles/test_m.dir/src/Move.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_m.dir/src/Move.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shsergiy/test/task1/Basecamp_2/src/Move.cpp > CMakeFiles/test_m.dir/src/Move.i
 
-CMakeFiles/test_m.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_m.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cppbcuser/basecamp/basecamp_2/src/main.cpp -o CMakeFiles/test_m.dir/src/main.cpp.s
+CMakeFiles/test_m.dir/src/Move.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_m.dir/src/Move.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shsergiy/test/task1/Basecamp_2/src/Move.cpp -o CMakeFiles/test_m.dir/src/Move.s
 
-CMakeFiles/test_m.dir/src/main.cpp.o.requires:
+CMakeFiles/test_m.dir/src/Move.o.requires:
 
-.PHONY : CMakeFiles/test_m.dir/src/main.cpp.o.requires
+.PHONY : CMakeFiles/test_m.dir/src/Move.o.requires
 
-CMakeFiles/test_m.dir/src/main.cpp.o.provides: CMakeFiles/test_m.dir/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/test_m.dir/src/main.cpp.o.provides
+CMakeFiles/test_m.dir/src/Move.o.provides: CMakeFiles/test_m.dir/src/Move.o.requires
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.o.provides.build
+.PHONY : CMakeFiles/test_m.dir/src/Move.o.provides
 
-CMakeFiles/test_m.dir/src/main.cpp.o.provides.build: CMakeFiles/test_m.dir/src/main.cpp.o
+CMakeFiles/test_m.dir/src/Move.o.provides.build: CMakeFiles/test_m.dir/src/Move.o
 
 
-CMakeFiles/test_m.dir/src/Move.cpp.o: CMakeFiles/test_m.dir/flags.make
-CMakeFiles/test_m.dir/src/Move.cpp.o: ../src/Move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_m.dir/src/Move.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_m.dir/src/Move.cpp.o -c /home/cppbcuser/basecamp/basecamp_2/src/Move.cpp
+CMakeFiles/test_m.dir/src/main.o: CMakeFiles/test_m.dir/flags.make
+CMakeFiles/test_m.dir/src/main.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_m.dir/src/main.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_m.dir/src/main.o -c /home/shsergiy/test/task1/Basecamp_2/src/main.cpp
 
-CMakeFiles/test_m.dir/src/Move.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_m.dir/src/Move.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cppbcuser/basecamp/basecamp_2/src/Move.cpp > CMakeFiles/test_m.dir/src/Move.cpp.i
+CMakeFiles/test_m.dir/src/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_m.dir/src/main.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shsergiy/test/task1/Basecamp_2/src/main.cpp > CMakeFiles/test_m.dir/src/main.i
 
-CMakeFiles/test_m.dir/src/Move.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_m.dir/src/Move.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cppbcuser/basecamp/basecamp_2/src/Move.cpp -o CMakeFiles/test_m.dir/src/Move.cpp.s
+CMakeFiles/test_m.dir/src/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_m.dir/src/main.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shsergiy/test/task1/Basecamp_2/src/main.cpp -o CMakeFiles/test_m.dir/src/main.s
 
-CMakeFiles/test_m.dir/src/Move.cpp.o.requires:
+CMakeFiles/test_m.dir/src/main.o.requires:
 
-.PHONY : CMakeFiles/test_m.dir/src/Move.cpp.o.requires
+.PHONY : CMakeFiles/test_m.dir/src/main.o.requires
 
-CMakeFiles/test_m.dir/src/Move.cpp.o.provides: CMakeFiles/test_m.dir/src/Move.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.cpp.o.provides.build
-.PHONY : CMakeFiles/test_m.dir/src/Move.cpp.o.provides
+CMakeFiles/test_m.dir/src/main.o.provides: CMakeFiles/test_m.dir/src/main.o.requires
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.o.provides.build
+.PHONY : CMakeFiles/test_m.dir/src/main.o.provides
 
-CMakeFiles/test_m.dir/src/Move.cpp.o.provides.build: CMakeFiles/test_m.dir/src/Move.cpp.o
+CMakeFiles/test_m.dir/src/main.o.provides.build: CMakeFiles/test_m.dir/src/main.o
 
 
 # Object files for target test_m
 test_m_OBJECTS = \
-"CMakeFiles/test_m.dir/src/main.cpp.o" \
-"CMakeFiles/test_m.dir/src/Move.cpp.o"
+"CMakeFiles/test_m.dir/src/Move.o" \
+"CMakeFiles/test_m.dir/src/main.o"
 
 # External object files for target test_m
 test_m_EXTERNAL_OBJECTS =
 
-libtest_m.so: CMakeFiles/test_m.dir/src/main.cpp.o
-libtest_m.so: CMakeFiles/test_m.dir/src/Move.cpp.o
+libtest_m.so: CMakeFiles/test_m.dir/src/Move.o
+libtest_m.so: CMakeFiles/test_m.dir/src/main.o
 libtest_m.so: CMakeFiles/test_m.dir/build.make
 libtest_m.so: CMakeFiles/test_m.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libtest_m.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libtest_m.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_m.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +125,8 @@ CMakeFiles/test_m.dir/build: libtest_m.so
 
 .PHONY : CMakeFiles/test_m.dir/build
 
-CMakeFiles/test_m.dir/requires: CMakeFiles/test_m.dir/src/main.cpp.o.requires
-CMakeFiles/test_m.dir/requires: CMakeFiles/test_m.dir/src/Move.cpp.o.requires
+CMakeFiles/test_m.dir/requires: CMakeFiles/test_m.dir/src/Move.o.requires
+CMakeFiles/test_m.dir/requires: CMakeFiles/test_m.dir/src/main.o.requires
 
 .PHONY : CMakeFiles/test_m.dir/requires
 
@@ -135,6 +135,6 @@ CMakeFiles/test_m.dir/clean:
 .PHONY : CMakeFiles/test_m.dir/clean
 
 CMakeFiles/test_m.dir/depend:
-	cd /home/cppbcuser/basecamp/basecamp_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cppbcuser/basecamp/basecamp_2 /home/cppbcuser/basecamp/basecamp_2 /home/cppbcuser/basecamp/basecamp_2/build /home/cppbcuser/basecamp/basecamp_2/build /home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/test_m.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shsergiy/test/task1/Basecamp_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shsergiy/test/task1/Basecamp_2 /home/shsergiy/test/task1/Basecamp_2 /home/shsergiy/test/task1/Basecamp_2/build /home/shsergiy/test/task1/Basecamp_2/build /home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/test_m.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_m.dir/depend
 

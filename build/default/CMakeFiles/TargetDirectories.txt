@@ -1,0 +1,8 @@
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/install.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/list_install_components.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/rebuild_cache.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/edit_cache.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/test_m.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/main.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/install/strip.dir
+/home/shsergiy/test/task1/Basecamp_2/build/default/CMakeFiles/install/local.dir

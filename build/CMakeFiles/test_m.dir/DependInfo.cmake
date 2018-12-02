@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cppbcuser/basecamp/basecamp_2/src/Move.cpp" "/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/test_m.dir/src/Move.cpp.o"
-  "/home/cppbcuser/basecamp/basecamp_2/src/main.cpp" "/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/test_m.dir/src/main.cpp.o"
+  "/home/shsergiy/test/task1/Basecamp_2/src/Move.cpp" "/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/test_m.dir/src/Move.o"
+  "/home/shsergiy/test/task1/Basecamp_2/src/main.cpp" "/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/test_m.dir/src/main.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/home/cppbcuser/home/cppbcuser/basecamp/basecamp_3/task2/include"
+  "/home/shsergiy/home/cppbcuser/basecamp/basecamp_3/task2/include"
   )
 
 # Targets to which this target links.

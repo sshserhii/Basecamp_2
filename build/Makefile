@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cppbcuser/basecamp/basecamp_2
+CMAKE_SOURCE_DIR = /home/shsergiy/test/task1/Basecamp_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cppbcuser/basecamp/basecamp_2/build
+CMAKE_BINARY_DIR = /home/shsergiy/test/task1/Basecamp_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles /home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles /home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -180,62 +180,38 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/Move.o: src/Move.cpp.o
-
+# target to build an object file
+src/Move.o:
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.o
 .PHONY : src/Move.o
 
-# target to build an object file
-src/Move.cpp.o:
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.cpp.o
-.PHONY : src/Move.cpp.o
-
-src/Move.i: src/Move.cpp.i
-
+# target to preprocess a source file
+src/Move.i:
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.i
 .PHONY : src/Move.i
 
-# target to preprocess a source file
-src/Move.cpp.i:
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.cpp.i
-.PHONY : src/Move.cpp.i
-
-src/Move.s: src/Move.cpp.s
-
+# target to generate assembly for a file
+src/Move.s:
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.s
 .PHONY : src/Move.s
 
-# target to generate assembly for a file
-src/Move.cpp.s:
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/Move.cpp.s
-.PHONY : src/Move.cpp.s
-
-src/main.o: src/main.cpp.o
-
+# target to build an object file
+src/main.o:
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.o
 .PHONY : src/main.o
 
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.cpp.o
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-
+# target to preprocess a source file
+src/main.i:
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.i
 .PHONY : src/main.i
 
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.cpp.i
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-
-.PHONY : src/main.s
-
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.cpp.s
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main.s:
+	$(MAKE) -f CMakeFiles/test_m.dir/build.make CMakeFiles/test_m.dir/src/main.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.s
+.PHONY : src/main.s
 
 # Help Target
 help:

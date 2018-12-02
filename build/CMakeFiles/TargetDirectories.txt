@@ -1,8 +1,8 @@
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/install.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/list_install_components.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/rebuild_cache.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/edit_cache.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/test_m.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/main.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/install/strip.dir
-/home/cppbcuser/basecamp/basecamp_2/build/CMakeFiles/install/local.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/install.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/list_install_components.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/rebuild_cache.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/edit_cache.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/test_m.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/main.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/install/strip.dir
+/home/shsergiy/test/task1/Basecamp_2/build/CMakeFiles/install/local.dir

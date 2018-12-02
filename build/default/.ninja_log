@@ -1,0 +1,6 @@
+# ninja log v5
+0	899	0	CMakeFiles/test_m.dir/src/main.o	8d04341f676813de
+0	900	0	CMakeFiles/main.dir/src/main.o	4c040387eec2b9de
+0	950	0	CMakeFiles/test_m.dir/src/Move.o	196a77cd4c2d99be
+900	1026	0	main	43a8598988e41d88
+950	1033	0	libtest_m.so	b3feab2d23c25430

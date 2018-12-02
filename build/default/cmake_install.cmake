@@ -47,7 +47,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/shsergiy/test/task1/Basecamp_2/build/libtest_m.so")
+file(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/shsergiy/test/task1/Basecamp_2/build/default/libtest_m.so")
   if(EXISTS "$ENV{DESTDIR}/usr/lib/libtest_m.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/libtest_m.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -64,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shsergiy/test/task1/Basecamp_2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shsergiy/test/task1/Basecamp_2/build/default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
